@@ -89,6 +89,17 @@ mega.runtime("boa") // https://github.com/boa-dev/boa
 mega.runtime("starlight") // https://github.com/Starlight-JS/Starlight
 ```
 
+**New in update 0.1.1**
+
+After being inspired by NextJS, we've decided to add an alterative syntax to make it easier for you, the user.
+
+```ts
+"use v8";
+console.log("hi from v8");
+"use duktape";
+console.log("hi from duktape");
+```
+
 ### Cross-Runtime APIs (again)
 
 Did you think I was joking the first time? Nope. MegaJS has TRUE cross-runtime API support, including browser APIs.
